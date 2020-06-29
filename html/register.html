@@ -1,0 +1,135 @@
+
+<!doctype html>
+<html lang="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>百洋健康 - 用户注册</title>
+<meta name="keywords" content="百洋健康" />
+<meta name="description" content="百洋健康" />
+<meta name="author" content="">
+<meta name="copyright" content="">
+
+
+<link rel="stylesheet" href="../css/register.css">
+
+</head>
+<body>
+<div class="header-wrap">
+  <header class="public-head-layout wrapper">
+    <h1 class="site-logo"><a href="http://127.0.0.1/Phase%20II%20project/2020628/html/baiyang0.0.1.html"><img src="../img/baiyang-logo.png" class="pngFix"></a></h1>
+            <div class="login-now">我已经注册，现在就<a href="http://127.0.0.1/Phase%20II%20project/2020629/html/signIn.html" title="" class="register">登录</a></span></div>
+          </header>
+</div>
+
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+
+<div class="nc-register-bg">
+  <div class="nc-register-box">
+    <div class="nc-register-layout">
+      <div class="left">
+        <div class="nc-register-mode">
+          <ul class="tabs-nav">
+            
+            <li><a href="#mobile">手机注册<i></i></a></li>
+           
+          </ul>
+          <div id="tabs_container" class="tabs-container">
+           
+                        <div id="mobile" class="tabs-content">
+              <form id="post_form" method="post" class="nc-login-form">
+                <input type='hidden' name='formhash' value='RJIKGEtHs1YdsxVfFpDYapa7CwXINm-' />                <input type="hidden" name="form_submit" value="ok" />
+                <input name="nchash" type="hidden" value="4cf167a9" />
+                <dl>
+                  <dt>手机号：</dt>
+                  <dd>
+                    <input type="text" class="text" tipMsg="请输入手机号码" autocomplete="off" value="" name="phone" id="phone"  placeholder="请输入手机号码">
+                  </dd>
+                </dl>
+                <div class="tiptext" id="sms_text">确保上方验证码输入正确，点击<span><a href="javascript:void(0);" onclick="get_sms_captcha('1')"><i class="icon-mobile-phone"></i>发送短信验证</a></span>，并将您手机短信所接收到的“6位动态码”输入到下方短信验证，再提交下一步。</div>
+                <dl>
+                  <dt>短信验证：</dt>
+                  <dd>
+                    <input type="text" name="sms_captcha" autocomplete="off" value="" class="text" id="sms_captcha" size="15" placeholder="请输入六位短信验证码"/>
+                  </dd>
+                </dl>
+                <div class="submit-div">
+                  <input type="button" id="submitBtn" class="submit" value="下一步">
+                </div>
+              </form>
+              <form style="display: none;" id="register_sms_form" class="nc-login-form" method="post" action="https://www.baiyangwang.com/member/index.php?act=connect_sms&op=register">
+                <input type="hidden" name="form_submit" value="ok" />
+                <input type="hidden" name="register_captcha" id="register_sms_captcha" value="" />
+                <input type="hidden" name="register_phone" id="register_phone" value="" />
+                <dl>
+                  <dt>用户名：</dt>
+                  <dd>
+                    <input type="text" id="member_name" name="member_name" class="text w150" value=""/>
+                  </dd>
+                  <span class="note">系统生成随机用户名，可选择默认或自行修改一次。</span>
+                </dl>
+                <dl>
+                  <dt>设置密码：</dt>
+                  <dd>
+                    <input type="text" id="sms_password" name="password" class="text w150" value=""/>
+                  </dd>
+                  <span class="note">系统生成随机密码，请牢记或修改为自设密码。</span>
+                </dl>
+                <dl class="mt15">
+                  <dt>邮箱：</dt>
+                  <dd>
+                    <input type="text" id="sms_email" name="email" class="text" value="" tipMsg="输入常用邮箱作为验证及找回密码使用" />
+                  </dd>
+                </dl>
+                <dl class="clause-div">
+                  <dd>
+                    <input name="agree" type="checkbox" class="checkbox" id="sms_clause" value="1" checked="checked" />
+                    阅读并同意<a href="../html/agrenmen.html " target="_blank" class="agreement" title="阅读并同意">《服务协议》</a></dd>
+                </dl>
+                <div class="submit-div">
+                  <input type="submit" value="提交注册" class="submit" title="提交注册" />
+                </div>
+              </form>
+            </div>
+                      </div>
+        </div>
+      </div>
+      <div class="right">
+                <div class="reister-after">
+          <h4>注册之后您可以</h4>
+          <ol>
+            <li class="ico01"><i><img src="../img/right1.PNG" alt=""></i>购买商品支付订单</li>
+            <li class="ico02"><i><img src="../img/right2.PNG" alt=""></i>收藏商品关注店铺</li>
+            <li class="ico03"><i><img src="../img/right3.PNG" alt=""></i>安全交易诚信无忧</li>
+            <li class="ico04"><i><img src="../img/right4.PNG" alt=""></i>积分获取优惠购物</li>
+            <li class="ico05"><i><img src="../img/right5.PNG" alt=""></i>会员等级享受特权</li>
+            <li class="ico06"><i><img src="../img/right6.PNG" alt=""></i>评价晒单站外分享</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="cti">
+  <div class="wrapper">
+    <ul>
+          </ul>
+  </div>
+</div>
+<div id="footer" class="wrapper">
+  <p><a href="http://127.0.0.1/Phase%20II%20project/2020628/html/baiyang0.0.1.html">首页</a>
+                        | <a  target="_blank" >营业执照</a>
+                | <a  target="_blank" >互联网药品信息服务资格证</a>
+                        | <a  target="_blank" >医疗器械经营许可证</a>
+                        | <a  target="_blank" >食品经营许可证</a>
+                        | <a  target="_blank" >药品经营许可证</a>
+                | <a  target="_blank" >GSP证书</a>
+                | <a  target="_blank" >医疗器械网络销售备案表</a>
+                | <a  target="_blank">二类医疗器械经营备案</a>
+                | <a  target="_blank" >执业药师资格证</a>
+                                                      </p>
+  版权所有 2007-2020 青岛百洋健康药房连锁有限公司 百洋健康 <a target="_blank" >鲁ICP备09091598号-4</a><br />
+   </div>
+</body>
+</html>
